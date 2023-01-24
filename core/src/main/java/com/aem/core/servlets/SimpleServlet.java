@@ -54,7 +54,7 @@ public class SimpleServlet extends SlingSafeMethodsServlet {
         resp.setContentType("text/plain");
         resp.getWriter().write("Title = " + resource.adaptTo(ValueMap.class).get("jcr:title"));
         PrintWriter out = resp.getWriter();
-        out.println("<h1> New Servlet!!! </h1>");
+        out.println("<h1> New Servlt!!! </h1>");
         out.close();
 
     }
