@@ -28,6 +28,7 @@ import org.osgi.service.component.annotations.Component;
 import javax.servlet.Servlet;
 import javax.servlet.ServletException;
 import java.io.IOException;
+import java.io.PrintWriter;
 
 /**
  * Servlet that writes some sample content into the response. It is mounted for
@@ -52,5 +53,9 @@ public class SimpleServlet extends SlingSafeMethodsServlet {
         final Resource resource = req.getResource();
         resp.setContentType("text/plain");
         resp.getWriter().write("Title = " + resource.adaptTo(ValueMap.class).get("jcr:title"));
+        PrintWriter out = resp.getWriter();
+        out.println("<h1> New Servlet!!! </h1>");
+        out.close();
+
     }
 }
