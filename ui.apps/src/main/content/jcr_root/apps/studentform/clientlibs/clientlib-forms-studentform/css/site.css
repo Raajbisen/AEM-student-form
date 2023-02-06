@@ -1,0 +1,474 @@
+.studentFormHeading {
+  color: Black;
+  font:bold;
+}
+
+.ETBformFields .gridFluidLayout {
+	-webkit-box-shadow: none !important;
+	box-shadow: none !important;
+	border-radius: 0;
+	height: 100%;
+	display: inline-block;
+	width: 100%;
+	background: none;
+	padding: 0px !important;
+}
+.ETBformFields label {
+	margin-bottom: 0px !important;
+	margin-top: 16px;
+	text-align: left;
+	font: normal normal normal 16px/22px Open Sans;
+	letter-spacing: 0px;
+	color: #5a5a5a;
+	opacity: 1;
+	margin-left: 0px !important;
+}
+.ETBformFields input {
+	height: 32px;
+	max-width: 400px;
+	border: none;
+	border-bottom: 1px solid #c9c9c9;
+	opacity: 1;
+	border-radius: 0px;
+	text-align: left;
+	font: normal normal 600 18px/24px Open Sans;
+	letter-spacing: 0px;
+	color: #004b8d;
+	opacity: 1;
+	padding-left: 0 !important;
+}
+.ETBformFields input::-webkit-input-placeholder {
+	text-align: left;
+	font: italic normal normal 16px/17px Open Sans;
+	letter-spacing: 0px;
+	color: #7e7e7e;
+	text-transform: capitalize;
+	opacity: 1;
+}
+.ETBformFields input::-moz-placeholder {
+	text-align: left;
+	font: italic normal normal 16px/17px Open Sans;
+	letter-spacing: 0px;
+	color: #7e7e7e;
+	text-transform: capitalize;
+	opacity: 1;
+}
+.ETBformFields input:-ms-input-placeholder {
+	text-align: left;
+	font: italic normal normal 16px/17px Open Sans;
+	letter-spacing: 0px;
+	color: #7e7e7e;
+	text-transform: capitalize;
+	opacity: 1;
+}
+.ETBformFields input::-ms-input-placeholder {
+	text-align: left;
+	font: italic normal normal 16px/17px Open Sans;
+	letter-spacing: 0px;
+	color: #7e7e7e;
+	text-transform: capitalize;
+	opacity: 1;
+}
+.ETBformFields input::placeholder {
+	text-align: left;
+	font: italic normal normal 16px/17px Open Sans;
+	letter-spacing: 0px;
+	color: #7e7e7e;
+	text-transform: capitalize;
+	opacity: 1;
+}
+.ETBformFields select {
+	border: none;
+	border-bottom: 1px solid #c9c9c9;
+	opacity: 1;
+	border-radius: 0 !important;
+	text-align: left;
+	font: normal normal 600 18px/24px Open Sans;
+	letter-spacing: 0px;
+	color: #004b8d;
+	opacity: 1;
+	max-width: 400px !important;
+	padding-left: 0 !important;
+	padding-bottom: 0px;
+}
+.ETBformFields .guideFieldNode.validation-success:not(.guideButton):not(.guideTextDraw):not(.guideChart) {
+	border: none !important;
+}
+.Pinformfields .gridFluidLayout {
+	-webkit-box-shadow: none !important;
+	box-shadow: none !important;
+	border-radius: 0;
+	height: 100%;
+	display: inline-block;
+	width: 100%;
+	background: none;
+	padding: 0px !important;
+}
+.Pinformfields label {
+	margin-bottom: 0px !important;
+	margin-top: 16px;
+	text-align: left;
+	font: normal normal normal 16px/22px Open Sans;
+	letter-spacing: 0px;
+	color: #5a5a5a;
+	opacity: 1;
+	margin-left: 0px !important;
+}
+.Pinformfields input {
+	height: 32px;
+	max-width: 400px;
+	border: none;
+	border-bottom: 1px solid #c9c9c9;
+	opacity: 1;
+	border-radius: 0 !important;
+	text-align: center !important;
+	font: normal normal 600 18px/24px Open Sans;
+	letter-spacing: 0px;
+	color: #004b8d;
+	opacity: 1;
+	padding-left: 0 !important;
+}
+.Pinformfields input::-webkit-input-placeholder {
+	text-align: center !important;
+	font: italic normal normal 16px/17px Open Sans;
+	letter-spacing: 0px;
+	color: #7e7e7e;
+	text-transform: capitalize;
+	opacity: 1;
+}
+.Pinformfields input::-moz-placeholder {
+	text-align: center !important;
+	font: italic normal normal 16px/17px Open Sans;
+	letter-spacing: 0px;
+	color: #7e7e7e;
+	text-transform: capitalize;
+	opacity: 1;
+}
+.Pinformfields input:-ms-input-placeholder {
+	text-align: center !important;
+	font: italic normal normal 16px/17px Open Sans;
+	letter-spacing: 0px;
+	color: #7e7e7e;
+	text-transform: capitalize;
+	opacity: 1;
+}
+.Pinformfields input::-ms-input-placeholder {
+	text-align: center !important;
+	font: italic normal normal 16px/17px Open Sans;
+	letter-spacing: 0px;
+	color: #7e7e7e;
+	text-transform: capitalize;
+	opacity: 1;
+}
+.Pinformfields input::placeholder {
+	text-align: center !important;
+	font: italic normal normal 16px/17px Open Sans;
+	letter-spacing: 0px;
+	color: #7e7e7e;
+	text-transform: capitalize;
+	opacity: 1;
+}
+.Pinformfields select {
+	border: none;
+	border-bottom: 1px solid #c9c9c9;
+	opacity: 1;
+	border-radius: 0 !important;
+	text-align: left;
+	font: normal normal 600 18px/24px Open Sans;
+	letter-spacing: 0px;
+	color: #004b8d;
+	opacity: 1;
+	max-width: 400px !important;
+	padding-left: 0 !important;
+	padding-bottom: 0px;
+}
+.Pinformfields .guideFieldNode.validation-success:not(.guideButton):not(.guideTextDraw):not(.guideChart) {
+	border: none !important;
+}
+@media only screen and (min-width: 992px) {
+	.Pinformfields > div > div > div > div {
+		max-width: 400px;
+	}
+	.Pinformfields > .gridFluidLayout > .guideLayout > .guideGridFluidLayout2Container {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-orient: horizontal;
+		-webkit-box-direction: normal;
+		-ms-flex-direction: row;
+		flex-direction: row;
+		-ms-flex-wrap: wrap;
+		flex-wrap: wrap;
+		-webkit-box-pack: justify;
+		-ms-flex-pack: justify;
+		justify-content: space-between;
+	}
+	.Pinformfields > .gridFluidLayout > .guideLayout > .guideGridFluidLayout2Container::before {
+		display: none;
+	}
+	.Pinformfields > .gridFluidLayout > .guideLayout > .guideGridFluidLayout2Container::after {
+		display: none;
+	}
+	.Pinformfields > .gridFluidLayout > .guideLayout > .guideGridFluidLayout2Container > div.active {
+		margin-right: 0 !important;
+	}
+	.ETBformFields > div > div > div > div {
+		max-width: 400px;
+	}
+	.ETBformFields > .gridFluidLayout > .guideLayout > .guideGridFluidLayout2Container {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-orient: horizontal;
+		-webkit-box-direction: normal;
+		-ms-flex-direction: row;
+		flex-direction: row;
+		-ms-flex-wrap: wrap;
+		flex-wrap: wrap;
+		-webkit-box-pack: justify;
+		-ms-flex-pack: justify;
+		justify-content: space-between;
+	}
+	.ETBformFields > .gridFluidLayout > .guideLayout > .guideGridFluidLayout2Container::before {
+		display: none;
+	}
+	.ETBformFields > .gridFluidLayout > .guideLayout > .guideGridFluidLayout2Container::after {
+		display: none;
+	}
+	.ETBformFields > .gridFluidLayout > .guideLayout > .guideGridFluidLayout2Container > div.active {
+		margin-right: 0 !important;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	
+	.ETBformFields label {
+		font: normal normal normal 14px/19px Open Sans;
+	}
+	.ETBformFields input {
+		font: normal normal 600 16px/22px Open Sans;
+	}
+	.ETBformFields input::-webkit-input-placeholder {
+		font: italic normal normal 16px/17px Open Sans;
+	}
+	.ETBformFields input::-moz-placeholder {
+		font: italic normal normal 16px/17px Open Sans;
+	}
+	.ETBformFields input:-ms-input-placeholder {
+		font: italic normal normal 16px/17px Open Sans;
+	}
+	.ETBformFields input::-ms-input-placeholder {
+		font: italic normal normal 16px/17px Open Sans;
+	}
+	.ETBformFields input::placeholder {
+		font: italic normal normal 16px/17px Open Sans;
+	}
+	.ETBformFields select {
+		font: normal normal 600 16px/22px Open Sans;
+	}
+	.Pinformfields label {
+		font: normal normal normal 14px/19px Open Sans;
+	}
+	.Pinformfields input {
+		font: normal normal 600 16px/22px Open Sans;
+	}
+	.Pinformfields input::-webkit-input-placeholder {
+		font: italic normal normal 16px/17px Open Sans;
+	}
+	.Pinformfields input::-moz-placeholder {
+		font: italic normal normal 16px/17px Open Sans;
+	}
+	.Pinformfields input:-ms-input-placeholder {
+		font: italic normal normal 16px/17px Open Sans;
+	}
+	.Pinformfields input::-ms-input-placeholder {
+		font: italic normal normal 16px/17px Open Sans;
+	}
+	.Pinformfields input::placeholder {
+		font: italic normal normal 16px/17px Open Sans;
+	}
+	.Pinformfields select {
+		font: normal normal 600 16px/22px Open Sans;
+	}
+}
+
+@media only screen and (max-width: 479px) {
+	.ETBformFields label {
+		font: normal normal normal 12px/17px Open Sans;
+	}
+	.ETBformFields input {
+		font: normal normal 600 14px/19px Open Sans;
+	}
+	.ETBformFields input::-webkit-input-placeholder {
+		font: italic normal normal 14px/17px Open Sans;
+	}
+	.ETBformFields input::-moz-placeholder {
+		font: italic normal normal 14px/17px Open Sans;
+	}
+	.ETBformFields input:-ms-input-placeholder {
+		font: italic normal normal 14px/17px Open Sans;
+	}
+	.ETBformFields input::-ms-input-placeholder {
+		font: italic normal normal 14px/17px Open Sans;
+	}
+	.ETBformFields input::placeholder {
+		font: italic normal normal 14px/17px Open Sans;
+	}
+	.ETBformFields select {
+		font: normal normal 600 14px/19px Open Sans;
+	}
+	.Pinformfields label {
+		font: normal normal normal 12px/17px Open Sans;
+	}
+	.Pinformfields input {
+		font: normal normal 600 14px/19px Open Sans;
+	}
+	.Pinformfields input::-webkit-input-placeholder {
+		font: italic normal normal 14px/17px Open Sans;
+	}
+	.Pinformfields input::-moz-placeholder {
+		font: italic normal normal 14px/17px Open Sans;
+	}
+	.Pinformfields input:-ms-input-placeholder {
+		font: italic normal normal 14px/17px Open Sans;
+	}
+	.Pinformfields input::-ms-input-placeholder {
+		font: italic normal normal 14px/17px Open Sans;
+	}
+	.Pinformfields input::placeholder {
+		font: italic normal normal 14px/17px Open Sans;
+	}
+	.Pinformfields select {
+		font: normal normal 600 14px/19px Open Sans;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.cmp-modal,
+.cmp-modal {
+  display: none;
+  position: fixed;
+  z-index: 99999;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+}
+/* Modal Content */
+.cmp-modal__content-container {
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 0 12px;
+  max-width: 296px;
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #004b8d;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+.cmp-modal__title {
+  margin-top: 12px;
+}
+.cmp-modal__message {
+  font-weight: 400;
+  color: #004b8d;
+}
+.cmp-modal__question,
+.cmp-modal__hyperlink {
+  font-weight: 600;
+  color: #004b8d;
+}
+.cmp-modal__horizontal-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+.cmp-modal__confirm-btn {
+  border: none;
+  width: 160px;
+  height: 32px;
+  background: #008d00 !important;
+  box-shadow: 0px 2px 4px #00000029;
+  border-radius: 20px !important;
+  cursor: pointer !important;
+  outline: none;
+  color: #ffffff !important;
+  font-size: 14px !important;
+  padding: 0 !important;
+}
+@media only screen and (min-width: 480px) {
+  .cmp-modal__content-container {
+    max-width: 432px;
+    padding: 0 16px;
+    font-size: 16px;
+  }
+  .cmp-modal__confirm-btn {
+    font-size: 16px;
+  }
+  .cmp-modal__question {
+    margin-top: 16px;
+  }
+  .cmp-modal__horizontal-flex {
+    margin-bottom: 24px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .cmp-modal__content-container {
+    max-width: 608px;
+  }
+}
+
+.insta-modal .cmp-modal__confirm-btn {
+  width: auto !important;
+  min-width: 160px !important;
+  padding: 0 12px !important;
+}
+
+.insta-modal__header {
+  font-weight: 600;
+}
+
+.insta-modal__header,
+.insta-modal__body {
+  font-size: 16px;
+  line-height: 22px;
+}
+@media only screen and (max-width: 29.9375em) {
+  .insta-modal__header,
+  .insta-modal__body {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .cmp-modal__content-container {
+    max-width: 340px !important;
+  }
+}
+
