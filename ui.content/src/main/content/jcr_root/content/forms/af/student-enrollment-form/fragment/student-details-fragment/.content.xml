@@ -5,7 +5,7 @@
     <jcr:content
         cq:designPath="/libs/settings/wcm/designs/fd/af/default"
         cq:deviceGroups="/etc/mobile/groups/responsive"
-        cq:lastModified="{Date}2023-01-24T12:28:17.951+05:30"
+        cq:lastModified="{Date}2023-02-04T12:50:59.692+05:30"
         cq:lastModifiedBy="admin"
         cq:template="/libs/fd/af/templateForFragment/defaultFragmentTemplate"
         jcr:primaryType="cq:PageContent"
@@ -40,11 +40,12 @@
                     <panel
                         jcr:created="{Date}2023-01-24T11:18:18.966+05:30"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2023-01-24T11:18:44.318+05:30"
+                        jcr:lastModified="{Date}2023-01-25T13:21:03.141+05:30"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="Fragment main panel"
                         sling:resourceType="fd/af/components/panel"
+                        css="ETBformFields"
                         guideNodeClass="guidePanel"
                         name="studentMainFragment"
                         textIsRich="true"
@@ -61,7 +62,7 @@
                             <panel
                                 jcr:created="{Date}2023-01-24T11:20:02.905+05:30"
                                 jcr:createdBy="admin"
-                                jcr:lastModified="{Date}2023-01-24T11:20:13.319+05:30"
+                                jcr:lastModified="{Date}2023-01-25T12:03:41.157+05:30"
                                 jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="fd/af/components/panel"
@@ -249,21 +250,7 @@
                                     toolbarPosition="Bottom"/>
                                 <items
                                     jcr:primaryType="nt:unstructured"
-                                    sling:resourceType="fd/af/layouts/gridFluidLayout2">
-                                    <guidetextbox
-                                        jcr:created="{Date}2023-01-24T11:27:56.270+05:30"
-                                        jcr:createdBy="admin"
-                                        jcr:lastModified="{Date}2023-01-24T11:28:22.031+05:30"
-                                        jcr:lastModifiedBy="admin"
-                                        jcr:primaryType="nt:unstructured"
-                                        jcr:title="Comments (If any)"
-                                        sling:resourceType="fd/af/components/guidetextbox"
-                                        autofillFieldKeyword="name"
-                                        guideNodeClass="guideTextBox"
-                                        multiLine="true"
-                                        name="comments"
-                                        textIsRich="[true,true,true]"/>
-                                </items>
+                                    sling:resourceType="fd/af/layouts/gridFluidLayout2"/>
                             </panel_1599027682>
                         </items>
                     </panel>
