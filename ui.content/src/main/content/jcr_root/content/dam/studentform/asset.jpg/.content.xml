@@ -8,14 +8,14 @@
         cq:name="asset.jpg"
         cq:parentPath="/content/dam/studentform"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2023-01-24T12:46:30.555+05:30"
+        jcr:lastModified="{Date}2023-02-06T11:14:51.918+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
             dam:Bitsperpixel="{Long}24"
             dam:ColorSpace="{Long}-1"
             dam:ExifOffset="{Long}232"
-            dam:extracted="{Date}2023-01-24T12:46:30.203+05:30"
+            dam:extracted="{Date}2023-02-06T11:14:50.854+05:30"
             dam:Fileformat="JPEG"
             dam:JpgFromRawLength="{Long}988"
             dam:JpgFromRawStart="{Long}382"
