@@ -24,11 +24,11 @@ $(document).ready(function () {
 
             $('.cmp-rating__submit-btn').removeAttr("disabled");
             for (var i = 0; i < imageArray.length; i++) {
-                imageArray[i].src = '/content/dam/HDFC_BL_Forms/ratings/star.svg';
+                imageArray[i].src = '/content/dam/studentform/logo/star.png';
 
             }
             for (var j = 0; j <= index; j++) {
-                imageArray[j].src = '/content/dam/HDFC_BL_Forms/ratings/Star_fill.svg';
+                imageArray[j].src = '/content/dam/studentform/logo/star.png';
 
                 console.log(starValue);
 

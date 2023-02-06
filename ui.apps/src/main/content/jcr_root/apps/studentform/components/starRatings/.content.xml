@@ -3,6 +3,6 @@
     cq:icon="railBottom"
     jcr:description="Rating comp for an Thankyou page."
     jcr:primaryType="cq:Component"
-    jcr:title="HDFC Star Rating BLMVP"
+    jcr:title="Star Rating Component"
     sling:resourceSuperType="fd/af/components/guidetextbox"
     componentGroup="Adaptive Form"/>

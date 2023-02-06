@@ -2,6 +2,9 @@
   color: Black;
   font:bold;
 }
+.successText{
+color:Green;
+}
 
 .ETBformFields .gridFluidLayout {
 	-webkit-box-shadow: none !important;
