@@ -5,7 +5,7 @@
     <jcr:content
         cq:designPath="/libs/settings/wcm/designs/fd/af/default"
         cq:deviceGroups="/etc/mobile/groups/responsive"
-        cq:lastModified="{Date}2023-01-25T13:53:18.106+05:30"
+        cq:lastModified="{Date}2023-02-06T15:26:15.240+05:30"
         cq:lastModifiedBy="admin"
         cq:template="/libs/fd/af/templateForFragment/defaultFragmentTemplate"
         jcr:primaryType="cq:PageContent"
@@ -43,7 +43,7 @@
                     <panel
                         jcr:created="{Date}2023-01-25T13:42:31.597+05:30"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2023-01-25T13:43:20.949+05:30"
+                        jcr:lastModified="{Date}2023-02-06T15:25:47.627+05:30"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="fd/af/components/panel"
@@ -61,7 +61,7 @@
                             <guidetextdraw
                                 jcr:created="{Date}2023-01-24T12:25:04.053+05:30"
                                 jcr:createdBy="admin"
-                                jcr:lastModified="{Date}2023-01-24T12:25:29.904+05:30"
+                                jcr:lastModified="{Date}2023-02-06T15:26:15.237+05:30"
                                 jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="fd/af/components/guidetextdraw"
