@@ -24,7 +24,7 @@ SF.UTILS = function () {
             param.studentMainPanel.visible = false;
             param.confirmPage.visible = true;
         } else {
-            param.errorPopupFragment.visible = true;
+           alert("There is Validation error in below field");
         }
     }
 
